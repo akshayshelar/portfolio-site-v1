@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Akshay Shelar</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Custom Page CSS -->
+	<link rel="stylesheet" href="css/custom.css">
+	<!-- Latest compiled Bootstrap CSS-->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<!-- Font Awesome Icons -->
+	<script src="https://use.fontawesome.com/180908fa2a.js"></script>
+</head>
+<body>
+<!-- Header -->
+<header class="d-flex justify-content-center">
+    <a href="index.html" class="navlink m-3">HOME</a>
+    <a href="index.html#case-studies" class="navlink m-3">CASE STUDIES</a>
+    <a href="#footer" class="navlink m-3">CONTACT</a>
+</header>
+<!-- Header -->
+
+<!-- Hero Section -->
+<div class="container px-5">
+	<div class="row justify-content-md-center">
+		<div class="col-md-8">
+			<h1 class="mt-5">Digital Lending Platform</h1>
+		</div>
+	</div>
+</div>
+<!-- Hero Section -->
+<div class="container px-5">
+	<div class="row justify-content-md-center">
+		<div class="col-md-8">
+			<section class="mt-5">
+				<h3>
+					Summary
+				</h3>
+				<div>
+					Digital Lending Platform was an initiative to build a web based loan management portal. I was working onsite closely with all the stakeholders for this project for almost 6 months following an agile methodology. The goal was to overcome the business problems as early as possible by building a MVP with a happy path for users and designing additional features later in the process. My role was to gather requirements from business people, defining activity flow, wireframing and designing high fidelity mockups.
+				</div>
+			</section>
+			<section class="mt-5">
+				<h3>
+					Problem Statement
+				</h3>
+				<div>
+					At the very beginning business team had obstacles like the lead workflow, loan status tracking, document management and communication gaps regarding leads. The Loan Application Form gets reviewed and approved at multiple stages by multiple finance people in a bunch of papers, resulting in latency and losing a valuable lead.
+				</div>
+			</section>
+			<section class="mt-5">
+				<h3>
+					Finding Empathy
+				</h3>
+				<div>
+					To solve this problem of disorganization and overload, first we need to understand before empathising the problem. At the very beginning of the project a meeting was organized to take every stakeholder on the same page. Few survey questions are like:
+					<ul class="mt-3">
+						<li>What is the typical process of Lead management?</li>
+						<li>What milestone can be considered as the success in a given time?</li>
+						<li>Are we aiming for a feature-heavy or MVP?</li>
+					</ul>
+				</div>
+			</section>
+			<section class="mt-5">
+				<h3>
+					Pain Points
+				</h3>
+				<div>
+					<ul class="mt-3">
+						<li>Minimizing manual data entries</li>
+						<li>Making workflow seamless</li>
+						<li>Lead Status Tracking</li>
+						<li>Document Management</li>
+					</ul>
+				</div>
+			</section>	
+			<section class="mt-5">
+				<h3>
+					Personas
+				</h3>
+				<div>
+					One of the most important tools to understand and empathise the users is User Persona. We chose to create two personas of two hypothetical users.
+					<ul class="mt-3">
+						<li><b>Regional Officer-</b> Responsible for creating and validating leads.</li>
+						<li><b>Credit Officer-</b> Responsible for financial and lending decision making.</li>
+					</ul>
+					<div class="mt-3">
+						<img src="images/DLP/Persona-FarhanShaikh.jpg" class="w-100" alt="Persona-FarhanShaikh">
+						<img src="images/DLP/Persona-RameshJahangir.jpg" class="mt-5 w-100" alt="Persona-RameshJahangir">	
+					</div>
+				</div>
+			</section>
+			<section class="mt-5">
+				<h3>
+					Design Solution Ideas
+				</h3>
+				<div>
+					<ul class="mt-3">
+						<li>To minimise data entry tasks, we eliminated some fields at the very first stages of cases like manual data entries regarding Applicant’s Personal Information. As soon as the PAN card is detected with OCR, everything is pulled from an API, and secondary data like age from Birth date is calculated.</li>
+						<li>To make workflow seamless we created virtual buckets at various stages of cases and finance people. Every bucket is associated with a particular type of user group keeping data abstraction. Each case is assigned with a timer called lifespan that tells when the case is created and so the user can understand for how much time the case is idle in the bucket.</li>
+						<li>To manage all the case documents, we designed a specific stage in the workflow where all the documents can be found even if they are uploaded at various stages of cases. In this Document stage, users can see the required documents, previously uploaded documents and can upload new as well.</li>
+						<li>To verify whether the Personal Discussion for Business Loan happened or not and if it happened at any one location given in lead, we captured the location of the meeting as soon as Personal Discussion at applicant place starts.</li>
+					</ul>
+				</div>
+			</section>
+			<section class="mt-5">
+				<h3>
+					User Flow
+				</h3>
+				<div>
+					User flows were the most concentrated part of this project as we had an aim to make the processes smooth and track-able using existing mental models. We started thinking from a higher level with less details. This showed us a typical and generalised path of how data moves from one general state to another like this.
+					<img src="images/DLP/UserFlow_1.jpg" class="mt-3 mb-3 w-100" alt="UserFlow_1.jpg">
+					Then we started focusing on more details inside each state and possible scenarios that usually occur or can occur. For Regional Managers the flow of tasks in the real world was to grab a lead, collect details and documents, then review them and if everything's up to threshold, give the customer an offer. If a customer accepts the offer, the case is pushed to the Credit Officer for further processes. Sometimes the customer lacks to reach the threshold, in such cases customers could ask for deviations.
+					<img src="images/DLP/UserFlow_2.jpg" class="mt-3 mb-3 w-100" alt="UserFlow_1.jpg">
+					<img src="images/DLP/RM-User-Flow.png" class="mt-3 mb-3 w-100" alt="RM User Flow">
+				</div>
+			</section>
+			<section class="mt-5">
+				<h3>
+					Visual Design
+				</h3>
+				<div>
+					Fundamentals for UI design such as brand guide was already available, hence UI is strictly bounded to brand color palette. Keeping deadline in mind, reusability of available components was primary mantra for UIs. Hence UI components are selected according to the platform on which the DLP was about to developed rather than creating custom components. The process for UI design was pretty much straight forward like basic wireframing with Product owners, Designing according to available UI components and Testing.		
+				</div>
+			</section>
+		</div>	
+	</div>	
+</div>
+<div class="container mt-4">
+	<img src="images/DLP/dlp-visualdesign.png" class="w-100" alt="visualdesign.jpg">
+</div>
+<div class="container px-5">
+	<div class="row justify-content-md-center">
+		<div class="col-md-8">
+			<section>
+				<h3>
+					Key takeaways / Learnings
+				</h3>
+				<div>
+					<ul class="mt-3">
+						<li>In initial days, we as a team faced hundreds of obstacles due to limited/unknown scopes of requirements. This resulted in delay in many multiple sprints due to rework.</li>
+						<li>Being a Designer and Front-End Developer in the same project, my knowledge of development helped me alot while designing UIs as I was familiar with UI components and their customization boundaries in platform.</li>
+						<li>As I was relocated and working in client's office itself for almost 6 months in this project, I learned collaboration with people having different mindsets and skills who were totally unknown before. And later this friendliness helped in many cases while brainstorming and problem solving debates.</li>
+					</ul>
+				</div>
+			</section>
+		</div>
+	</div>
+</div>		
+<!-- Footer -->
+<footer id="footer">
+    	<div class="container mt-5 mb-3">
+    		<div class="row">
+    			<h1 class="d-flex justify-content-center">Hit Me Up!</h1>
+    			<div class="d-flex justify-content-center">
+    			    <a href="mailto:shelarakshay14@gmail.com" class="m-2 social-handles btn btn-outline-light" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;shelarakshay14@gmail.com
+    			    </a>
+    			</div>
+    			<div class="mt-1 d-flex justify-content-center">
+        				<a href="https://www.linkedin.com/in/akshay-shelar-3b8947116/" class="m-2 social-handles btn btn-outline-light" target="_blank">
+        					<i class="fa fa-linkedin" aria-hidden="true"></i>
+        				</a>
+        				<a href="https://dribbble.com/akshayshelar" class="m-2 social-handles btn btn-outline-light" target="_blank">
+        					<i class="fa fa-dribbble" aria-hidden="true"></i>
+        				</a>
+        				<a href="https://www.instagram.com/kaarbhaari/" class="m-2 social-handles btn btn-outline-light" target="_blank">
+        					<i class="fa fa-instagram" aria-hidden="true"></i>
+        				</a>
+    			</div>
+    		</div>
+    	</div>
+    </footer>
+<!-- Footer -->
+<!-- Latest compiled Bootstrap Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="js/bootstrap.js" crossorigin="anonymous"></script>
+<!-- Latest compiled Bootstrap Bundle -->
+</body>
+</html>

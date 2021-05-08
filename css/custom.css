@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'BebasNeue';
+    src: url(../fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  @font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-Thin.ttf);
+    font-style: normal;
+    font-weight: 100;
+  }
+  
+  body,html {
+  margin: 0;
+  background-color: #110F15 !important;
+  color: #fff !important;
+}
+
+header {
+    background-color: #110F15 !important;
+}
+/*--------------------------------------------------Typography*/
+
+h1, .h1 {
+    font-size: calc(4rem + 2.5vw) !important;
+    font-family: 'BebasNeue' !important;
+    font-weight: 600;
+    line-height: .9;
+  }
+  
+  @media (min-width: 1200px) {
+    h1, .h1 {
+      font-size: 2.5rem;
+    }
+  }
+
+h3, .h3 {
+    font-size: calc(1.3rem + 0.6vw);
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 100 !important;
+}
+@media (min-width: 1200px) {
+    h3, .h3 {
+      font-size: 1.75rem;
+    }
+}
+
+
+/*--------------------------------------------------Link Styles*/
+
+a {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+
+/*--------------------------------------------------Opacity*/
+
+.opacity-half {
+opacity: .6;
+}
+
+/*--------------------------------------------------Card*/
+
+.card {
+background-color: #000 !important;
+color: #fff !important;
+border:0 !important;
+}
+
+.card-img-top {
+width: 100% !important;
+height: auto !important;
+border-radius: 0 !important;
+}
+
+/*--------------------------------------------------Spacing*/
+
+.mt-max {
+margin-top: 10rem !important
+}
+
+/*--------------------------------------------------Hero Picture*/
+@media (max-width: 575.98px) {
+    
+    .hero-img {
+        opacity:.3; 
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+    
+    .img-fluid {
+        max-width:60% !important;
+        float: left !important;
+    }
+    
+    .hero-text {
+        position: absolute;
+        z-index:1;
+        top:10rem;
+    }
+    
+    #case-studies {
+        position: absolute;
+        top: 42rem;
+    }
+}
+
+/*--------------------------------------------------Header Navigation*/
+
+header a {
+    border-bottom: 1px solid transparent;
+}
+
+header a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+/*--------------------------------------------------Social Handles*/
+.btn-outline-light:hover {
+    color: #000 !important
+}
+
+/*--------------------------------------------------hero*/
+

@@ -102,6 +102,7 @@ margin-top: 10rem !important
     .img-fluid {
         max-width:60% !important;
         float: left !important;
+        margin-top: 80px;
     }
     
     .hero-text {
@@ -110,7 +111,7 @@ margin-top: 10rem !important
         top:10rem;
     }
     
-    #case-studies {
+    #portfolio {
         position: absolute;
         top: 42rem;
     }

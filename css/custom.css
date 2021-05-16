@@ -90,32 +90,6 @@ border-radius: 0 !important;
 margin-top: 10rem !important
 }
 
-/*--------------------------------------------------Hero Picture*/
-@media (max-width: 575.98px) {
-    
-    .hero-img {
-        opacity:.3; 
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-    }
-    
-    .img-fluid {
-        max-width:60% !important;
-        float: left !important;
-        margin-top: 80px;
-    }
-    
-    .hero-text {
-        position: absolute;
-        z-index:1;
-        top:10rem;
-    }
-    
-    #portfolio {
-        position: absolute;
-        top: 42rem;
-    }
-}
 
 /*--------------------------------------------------Header Navigation*/
 
@@ -133,4 +107,13 @@ header a:hover {
 }
 
 /*--------------------------------------------------hero*/
+
+@media (max-width: 575.98px) {
+    
+  .hero-center {
+    text-align: center;
+  }
+
+}
+
 

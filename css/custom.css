@@ -103,7 +103,7 @@ header a:hover {
 
 /*--------------------------------------------------Social Handles*/
 .btn-outline-light:hover {
-    color: #000 !important
+    color: #000 !important;
 }
 
 /*--------------------------------------------------hero*/
@@ -116,4 +116,20 @@ header a:hover {
 
 }
 
+/*--------------------------------------------------carousalIndicators*/
 
+.carousel-control-next, .carousel-control-prev {
+  width: 10% !important;
+  background: rgb(0, 0, 0) !important;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: rgb(0, 0, 0) !important;
+}
+
+/*--------------------------------------------------Buttons*/
+
+.btn {
+  border-radius: 0 !important;
+  padding: 0.8rem 1.5em !important;
+}

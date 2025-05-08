@@ -21,12 +21,23 @@
   
   body,html {
   margin: 0;
-  background-color: #110F15 !important;
+  /*background-color: #110F15 !important;*/
   color: #fff !important;
-}
+		position: fixed;
+		width: 100vw;
+		z-index: -1;
+		height: 100%;
+		--dot-bg: black;
+		--dot-color: rgb(57, 57, 57);
+		--dot-size: 1px;
+		--dot-space: 22px;
+		background: linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent .1%) center / var(--dot-space) var(--dot-space),
+		linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent .1%) center / var(--dot-space) var(--dot-space),
+		var(--dot-color);
+	}
 
 header {
-    background-color: #110F15 !important;
+    background-color: #000000 !important;
 }
 /*--------------------------------------------------Typography*/
 

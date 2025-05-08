@@ -21,12 +21,8 @@
   
   body,html {
   margin: 0;
-  bbackground-color: #383838!important;
+  background-color: #404040 !important;
   color: #fff !important;
-		position: fixed;
-		width: 100vw;
-		z-index: -1;
-		height: 100%;
 		--dot-bg: black;
 		--dot-color: rgb(57, 57, 57);
 		--dot-size: 1px;

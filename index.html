@@ -11,14 +11,17 @@
 </head>
 <style>
 	.bg-grid {
-		background-image: url("images/wave-grid-1.jpg");
-		background-position: center center;
-		background-repeat: repeat-y;
-		background-size: cover;
 		position: fixed;
 		width: 100vw;
 		z-index: -1;
 		height: 100%;
+		--dot-bg: black;
+		--dot-color: rgb(57, 57, 57);
+		--dot-size: 1px;
+		--dot-space: 22px;
+		background: linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent .1%) center / var(--dot-space) var(--dot-space),
+		linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent .1%) center / var(--dot-space) var(--dot-space),
+		var(--dot-color);
 	}
 </style>
 <body onload="onload()">

@@ -20,9 +20,9 @@
   }
   
   body,html {
-  margin: 0;
-  background-color: #404040 !important;
-  color: #fff !important;
+  		margin: 0;
+ 		background-color: #404040 !important;
+		color: #fff !important;
 		--dot-bg: black;
 		--dot-color: rgb(57, 57, 57);
 		--dot-size: 1px;
